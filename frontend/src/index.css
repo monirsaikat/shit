@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@source "./**/*.{js,ts,jsx,tsx}";
+@source "../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}";
+@plugin "./hero.ts";
